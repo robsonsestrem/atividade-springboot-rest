@@ -7,14 +7,14 @@ import br.com.udesc.spring.model.Veiculo;
 
 @Repository
 public interface VeiculoRepository extends JpaRepository<Veiculo, Long> {
-	
+
     //nome da "namedQuery"
     List<Veiculo> tiposDeVeiculo(String tipo);
-    
+
     List<Veiculo> montadora(String montadora);
-    
+
     List<Veiculo> motor(String motor);
-    
+
     List<Veiculo> filtros(String tipo, String montadora, int km);
 
 }
