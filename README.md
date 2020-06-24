@@ -1,5 +1,5 @@
 ## Objetivo
-Criar uma aplicação web que implemente um CRUD de veículos com atributos como Montadora, Modelo, Cor, Quilometragem, Motor e Tipo.
+Criar uma API (sem autenticação) que implemente um CRUD de veículos com atributos como Montadora, Modelo, Cor, Quilometragem, Motor e Tipo.
 A aplicação é apenas uma API REST utilizando Java Spring Boot e 
 que atenda as operações de pesquisa, inserção, edição e exclusão.
 A aplicação deve ser executada no <a href="https://www.heroku.com/#">Heroku</a>, um serviço de computação em nuvem do tipo PASS.
